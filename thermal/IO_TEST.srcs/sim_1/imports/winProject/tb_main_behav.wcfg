@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_main_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="442.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="585"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/tb_main/input_clk_p" type="logic">
+      <obj_property name="ElementShortName">input_clk_p</obj_property>
+      <obj_property name="ObjectShortName">input_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/input_clk_n" type="logic">
+      <obj_property name="ElementShortName">input_clk_n</obj_property>
+      <obj_property name="ObjectShortName">input_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/IN1" type="logic">
+      <obj_property name="ElementShortName">IN1</obj_property>
+      <obj_property name="ObjectShortName">IN1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/IN2" type="logic">
+      <obj_property name="ElementShortName">IN2</obj_property>
+      <obj_property name="ObjectShortName">IN2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/IN3" type="logic">
+      <obj_property name="ElementShortName">IN3</obj_property>
+      <obj_property name="ObjectShortName">IN3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/IN4_p" type="logic">
+      <obj_property name="ElementShortName">IN4_p</obj_property>
+      <obj_property name="ObjectShortName">IN4_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/IN4_n" type="logic">
+      <obj_property name="ElementShortName">IN4_n</obj_property>
+      <obj_property name="ObjectShortName">IN4_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/IN5_p" type="logic">
+      <obj_property name="ElementShortName">IN5_p</obj_property>
+      <obj_property name="ObjectShortName">IN5_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/IN5_n" type="logic">
+      <obj_property name="ElementShortName">IN5_n</obj_property>
+      <obj_property name="ObjectShortName">IN5_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/locked_out" type="logic">
+      <obj_property name="ElementShortName">locked_out</obj_property>
+      <obj_property name="ObjectShortName">locked_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/counter3" type="array">
+      <obj_property name="ElementShortName">counter3[55:0]</obj_property>
+      <obj_property name="ObjectShortName">counter3[55:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/wr_en_raw" type="logic">
+      <obj_property name="ElementShortName">wr_en_raw</obj_property>
+      <obj_property name="ObjectShortName">wr_en_raw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/dout" type="array">
+      <obj_property name="ElementShortName">dout[55:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[55:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/sbiterr" type="logic">
+      <obj_property name="ElementShortName">sbiterr</obj_property>
+      <obj_property name="ObjectShortName">sbiterr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/dbiterr" type="logic">
+      <obj_property name="ElementShortName">dbiterr</obj_property>
+      <obj_property name="ObjectShortName">dbiterr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/data1/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/all_ch_data/din" type="array">
+      <obj_property name="ElementShortName">din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din[63:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/all_ch_data/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/all_ch_data/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/all_ch_data/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/all_ch_data/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/all_ch_data/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_main/dut/fifo_out/all_ch_data/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+</wave_config>
